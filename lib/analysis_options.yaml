@@ -274,7 +274,9 @@ dart_code_metrics:
     - avoid-unnecessary-type-assertions
     - avoid-unnecessary-type-casts
     - avoid-unrelated-type-assertions
-    - prefer-match-file-name
+    - prefer-match-file-name:
+        exclude:
+          - test/**
     - avoid-expanded-as-spacer
     - format-comment:
         ignored-patterns:

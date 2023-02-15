@@ -1,3 +1,7 @@
+## [1.0.2]
+
+- Excluded tests folder in `prefer-match-file-name` rule
+
 ## [1.0.1]
 
 - Added the example

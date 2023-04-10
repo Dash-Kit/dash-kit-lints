@@ -1,3 +1,8 @@
+## [1.0.3]
+
+- Upgraded dependencies
+- Added `sort_pub_dependencies` rule
+
 ## [1.0.2]
 
 - Excluded tests folder in `prefer-match-file-name` rule

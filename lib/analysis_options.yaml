@@ -345,6 +345,7 @@ dart_code_metrics:
     - consistent-update-render-object
     - prefer-using-list-view
     - use-setstate-synchronously
+    - prefer-moving-to-variable
   rules-exclude:
     - no-empty-block # sometimes there is no other way to make button be active  but not clickable
     - prefer-extracting-callbacks # produces parameters hell to sync them between each hook
@@ -362,7 +363,6 @@ dart_code_metrics:
     - no-equal-arguments # false-positive when you need to use squares
     - no-magic-number # false-positive for all paddings, margins and so on
     - prefer-correct-identifier-length # not useful for loops
-    - prefer-moving-to-variable # there is an issue with using hooks (multiple useFocusNode for e.g.)
     - prefer-commenting-analyzer-ignores # usually it is obvious
     - prefer-static-class # prevent using the feature of the language without any reason
     - prefer-async-await # forces to rewrite dispatch in async/await way

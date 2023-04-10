@@ -1,3 +1,7 @@
+## [1.0.7]
+
+- Added `prefer-moving-to-variable` rule
+
 ## [1.0.6]
 
 - Removed a `use_build_context_synchronously` rule

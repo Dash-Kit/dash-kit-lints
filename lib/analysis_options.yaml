@@ -233,7 +233,7 @@ linter:
     # Pub Rules
     - package_names
     - secure_pubspec_urls
-    # - sort_pub_dependencies
+    - sort_pub_dependencies
 
 dart_code_metrics:
   metrics:

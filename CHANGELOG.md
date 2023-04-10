@@ -1,3 +1,7 @@
+## [1.0.4]
+
+- Upgraded set of rules
+
 ## [1.0.3]
 
 - Upgraded dependencies

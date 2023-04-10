@@ -37,6 +37,7 @@ analyzer:
     unnecessary_raw_strings: ignore # breaks regexp highlights
     avoid_implementing_value_types: ignore # produces errors for UI-Kit
     prefer_mixin: ignore # force to implement all WidgetsBindingObserver methods
+    one_member_abstracts: ignore # it is better to implement interfaces instead of functions
   exclude:
     - 'bin/cache/**'
     # workaround for https://github.com/dart-lang/sdk/issues/42910
@@ -147,7 +148,6 @@ linter:
     - null_check_on_nullable_type_parameter
     - null_closures
     - omit_local_variable_types
-    - one_member_abstracts
     - only_throw_errors
     - overridden_fields
     - package_api_docs
@@ -322,6 +322,7 @@ dart_code_metrics:
     - avoid-duplicate-exports
     - avoid-global-state
     - avoid-nested-conditional-expressions
+        acceptable-level: 2
     - avoid-throw-in-catch-block
     - avoid-unnecessary-conditionals
     - avoid-unnecessary-type-casts
@@ -336,12 +337,10 @@ dart_code_metrics:
             description: Please use logger.<i/w/e> instead
           - ident: debugPrint
             description: Please use logger.<i/w/e> instead
-    - no-object-declaration
     - prefer-correct-type-name
     - prefer-enums-by-name
     - prefer-immediate-return
     - tag-name
-    - avoid-shrink-wrap-in-lists
     - check-for-equals-in-render-object-setters
     - consistent-update-render-object
     - prefer-using-list-view
@@ -372,6 +371,8 @@ dart_code_metrics:
     - avoid-border-all # produces unexpected way to set borders
     - prefer-const-border-radius # produces unexpected way to set borders
     - prefer-single-widget-per-file # prevent making private widgets for only 1 page
+    - no-object-declaration # sometimes you don't know the type
+    - avoid-shrink-wrap-in-lists # too difficult to read
   anti-patterns:
     - long-method
     - long-parameter-list

@@ -1,3 +1,7 @@
+## [1.0.5]
+
+- Fixed a typo
+
 ## [1.0.4]
 
 - Upgraded set of rules

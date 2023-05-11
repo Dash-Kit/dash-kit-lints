@@ -1,6 +1,6 @@
 name: dash_kit_lints
 description: The custom set of lint rules based on the package:flutter_lints
-version: 2.0.0
+version: 2.0.1
 repository: https://github.com/Dash-Kit/dash-kit-lints
 
 environment:

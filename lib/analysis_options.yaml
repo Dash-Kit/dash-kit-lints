@@ -1,6 +1,6 @@
 analyzer:
-  strong-mode:
-    implicit-dynamic: true
+  language:
+    strict-raw-types: false
   errors:
     # treat missing required parameters as a error (not a hint)
     missing_required_param: error

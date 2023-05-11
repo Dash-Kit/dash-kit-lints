@@ -1,3 +1,7 @@
+## [1.0.8]
+
+- Migrate to dart 3
+
 ## [1.0.7]
 
 - Added `prefer-moving-to-variable` rule

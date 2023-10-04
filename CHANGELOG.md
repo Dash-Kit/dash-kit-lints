@@ -1,3 +1,7 @@
+## [3.0.0]
+
+- Add dart 3 rules
+
 ## [2.0.1]
 
 - Migrate to dart 3

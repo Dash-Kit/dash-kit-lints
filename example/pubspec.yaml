@@ -10,4 +10,5 @@ environment:
 # lint set provided by this package is activated in the `analysis_options.yaml`
 # file located next to this `pubspec.yaml` file.
 dev_dependencies:
-  dash_kit_lints: ^1.0.0  # Check https://pub.dev/packages/flutter_lints for latest version number.
+  dash_kit_lints:
+    path: ../

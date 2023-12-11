@@ -1,3 +1,7 @@
+## [3.0.1]
+
+- Removed discontinued `dart_code_metrics` support
+
 ## [3.0.0]
 
 - Add dart 3 rules

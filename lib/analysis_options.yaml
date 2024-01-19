@@ -40,6 +40,7 @@ analyzer:
     prefer_final_parameters: ignore # requires to put final parameters always
     unnecessary_library_directive: ignore # requires to put annotations inside project
     type_annotate_public_apis: ignore # we don't write libraries
+    use_decorated_box: ignore # different behavior for border size
 
   exclude:
     - 'bin/cache/**'
@@ -214,7 +215,6 @@ linter:
     - unnecessary_this
     - unnecessary_to_list_in_spreads
     - use_colored_box
-    - use_decorated_box
     - use_enums
     - use_full_hex_values_for_flutter_colors
     - use_function_type_syntax_for_parameters

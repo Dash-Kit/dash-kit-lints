@@ -1,3 +1,7 @@
+## [3.0.2]
+
+- Removed `use_decorated_box` due to false-positive
+
 ## [3.0.1]
 
 - Removed discontinued `dart_code_metrics` support

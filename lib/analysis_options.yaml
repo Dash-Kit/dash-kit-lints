@@ -89,7 +89,6 @@ linter:
     - always_declare_return_types
     - always_put_control_body_on_new_line
     - always_put_required_named_parameters_first
-    - always_require_non_null_named_parameters
     - annotate_overrides
     - avoid_bool_literals_in_conditional_expressions
     - avoid_catching_errors
@@ -234,7 +233,6 @@ linter:
     - secure_pubspec_urls
     - sort_pub_dependencies
 
-    - avoid_returning_null_for_future
     - collection_methods_unrelated_type
     - combinators_ordering
     - dangling_library_doc_comments

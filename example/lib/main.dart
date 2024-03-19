@@ -6,11 +6,11 @@
 // analyzed using the rules activated in `analysis_options.yaml`.
 
 // The following syntax deactivates a lint for the entire file:
-// ignore_for_file: avoid_renaming_method_parameters
+// ignore_for_file: avoid_renaming_method_parameters, unreachable_from_main
 
 void main() {
-  const String partOne = 'Hello';
-  const String partTwo = 'World';
+  const partOne = 'Hello';
+  const partTwo = 'World';
 
   // The following syntax deactivates a lint on a per-line bases:
   print('$partOne $partTwo'); // ignore: avoid_print

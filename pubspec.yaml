@@ -1,11 +1,11 @@
 name: dash_kit_lints
 description: The custom set of lint rules based on the package:flutter_lints
-version: 3.0.2
+version: 3.0.3
 repository: https://github.com/Dash-Kit/dash-kit-lints
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
-  flutter_lints: ^2.0.3
+  flutter_lints: ^3.0.1
   # Code is not allowed in this package. Do not add any dependencies or dev_dependencies.

@@ -1,3 +1,7 @@
+## [3.0.4]
+
+- Removed `dart_code_metrics` plugin
+
 ## [3.0.3]
 
 - Removed unsupported rules

@@ -53,8 +53,6 @@ analyzer:
     - '**.g.dart'
     - '**.freezed.dart'
     - '**.mocks.dart'
-  plugins:
-    - dart_code_metrics
 
 linter:
   rules:

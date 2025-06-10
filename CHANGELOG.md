@@ -1,3 +1,7 @@
+## [3.0.5]
+
+- Updated `flutter_lints` version
+
 ## [3.0.4]
 
 - Removed `dart_code_metrics` plugin
